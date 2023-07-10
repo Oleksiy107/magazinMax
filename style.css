@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .categories {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .products {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .product-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .category-item,
+  .product-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .category-item:hover,
+  .product-item:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .hidden {
+    display: none;
+  }
